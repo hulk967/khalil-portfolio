@@ -1,0 +1,97 @@
+{
+  "hero_label": "Senior Graphic Designer · Brand Strategist",
+  "hero_first": "Khalil",
+  "hero_last": "Hdeab.",
+  "hero_tagline": "Crafting Brands That Command Attention.",
+  "hero_desc": "I architect brand identities that endure. From the first sketch to the final guideline — every mark, every weight, every curve is intentional.",
+  "stats": [
+    {
+      "number": "5+",
+      "label": "Years"
+    },
+    {
+      "number": "700+",
+      "label": "Brands Crafted"
+    },
+    {
+      "number": "60+",
+      "label": "Designers Trained"
+    },
+    {
+      "number": "1300+",
+      "label": "Media Designs"
+    }
+  ],
+  "contact": {
+    "phone": "+962 079 595 7277",
+    "email": "hdeab93@gmail.com",
+    "whatsapp": "+962 079 595 7277",
+    "instagram": "@al5el.designer",
+    "linkedin": "Khalil Hdeab"
+  },
+  "projects": [
+    {
+      "cat": "Brand Identity",
+      "name": "Stellar Soft",
+      "desc": "Software development brand identity system",
+      "img": "",
+      "pdf": ""
+    },
+    {
+      "cat": "Coming Soon",
+      "name": "Project 02",
+      "desc": "Brand identity project slot",
+      "img": "",
+      "pdf": ""
+    },
+    {
+      "cat": "Coming Soon",
+      "name": "Project 03",
+      "desc": "Brand identity project slot",
+      "img": "",
+      "pdf": ""
+    },
+    {
+      "cat": "Coming Soon",
+      "name": "Project 04",
+      "desc": "Brand identity project slot",
+      "img": "",
+      "pdf": ""
+    },
+    {
+      "cat": "Coming Soon",
+      "name": "Project 05",
+      "desc": "Brand identity project slot",
+      "img": "",
+      "pdf": ""
+    },
+    {
+      "cat": "Coming Soon",
+      "name": "Project 06",
+      "desc": "Brand identity project slot",
+      "img": "",
+      "pdf": ""
+    },
+    {
+      "cat": "Coming Soon",
+      "name": "Project 07",
+      "desc": "Brand identity project slot",
+      "img": "",
+      "pdf": ""
+    },
+    {
+      "cat": "Coming Soon",
+      "name": "Project 08",
+      "desc": "Brand identity project slot",
+      "img": "",
+      "pdf": ""
+    },
+    {
+      "cat": "Coming Soon",
+      "name": "Project 09",
+      "desc": "Brand identity project slot",
+      "img": "",
+      "pdf": ""
+    }
+  ]
+}
