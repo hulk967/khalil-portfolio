@@ -1,1 +1,46 @@
+backend:
+  name: git-gateway
+  branch: main
 
+local_backend: true
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - file: "content/site.json"
+        name: "portfolio"
+        label: "Portfolio Content"
+        fields:
+          - {label: "Hero Label", name: "hero_label", widget: "string"}
+          - {label: "Hero Name First", name: "hero_first", widget: "string"}
+          - {label: "Hero Name Last", name: "hero_last", widget: "string"}
+          - {label: "Hero Tagline", name: "hero_tagline", widget: "string"}
+          - {label: "Hero Description", name: "hero_desc", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Number", name: "number", widget: "string"}
+              - {label: "Label", name: "label", widget: "string"}
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "WhatsApp", name: "whatsapp", widget: "string"}
+              - {label: "Instagram", name: "instagram", widget: "string"}
+              - {label: "LinkedIn", name: "linkedin", widget: "string"}
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "Category", name: "cat", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Description", name: "desc", widget: "text"}
+              - {label: "Image", name: "img", widget: "image", required: false}
+              - {label: "PDF", name: "pdf", widget: "file", required: false}
